@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar.navbar-expand-lg.navbar-dark.bg-dark .container #navbarSupportedContent {
+    padding-top: 0px;
+    margin-left: 35%;
+}
+.navbar.navbar-expand-lg.navbar-dark.bg-dark #navbarSupportedContent {
+    margin-left: 70%;
+}
+.bg-dark {
+    background-color: #E95F2A !important;
+}
+
+.container .img-fluid.align-content-center {
+    padding-left: 0px;
+    margin-left: 40px;
+}
+.col-md-4.pb-1.pb-md-0.col-lg-6 .card video {
+    width: 100;
+    height: auto;
+}
+.responsive{    
+    overflow:hidden;    
+    padding-bottom:56.25%;    
+    position:relative;    
+    height:0; } 
+.responsive iframe{    
+    left:0;    
+    top:0;    
+    height:100%;    
+    width:100%;    
+    position:absolute; }
+.carousel-item .carousel-caption.d-none.d-md-block p {
+    color: #000000;
+}
+.carousel-item .carousel-caption.d-none.d-md-block h5 {
+    color: #000000;
+    font-size: x-large;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+.card .responsive video {
+    left:0;    
+    top:0;    
+    height:100%;    
+    width:100%;    
+    position:absolute;
+}
+.row div .rounded-circle {
+    margin-left: 30%;
+}
+
+
+
+.chat-container{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	max-width: 340px;
+	height: auto;
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	z-index: 999;
+}
+
+
+.chat-button{
+	width: 100%;
+	margin: 0;
+	cursor: pointer;
+	user-select: none;
+	padding: 4px 0;
+	background-color: #337AB7;
+	text-aling: center;
+	color: #fff;
+}
+
+.chat-content{
+	margin: 0;
+	padding: 0;
+	display: none;
+	background-color: #fff;
+}
+
